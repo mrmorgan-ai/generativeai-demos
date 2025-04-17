@@ -16,7 +16,7 @@ async def main():
 
     # Ejecución secuencial
     for i in range(1, 4):
-        await tarea(f"Secuencial-{i}", i)
+        await tarea(f"Secuencial-{i}", i) # type: ignore
 
     fin = time.time()
     print(f"Tiempo total (secuencial): {fin - inicio:.2f} segundos\n")
