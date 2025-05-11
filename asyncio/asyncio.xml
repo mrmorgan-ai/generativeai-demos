@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo y título -->
+  <rect width="800" height="500" fill="#f5f7fa" rx="10" ry="10"/>
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2e4057">Flujo Asíncrono con Asyncio en Python</text>
+  
+  <!-- Event Loop -->
+  <ellipse cx="400" cy="150" rx="200" ry="70" fill="#c1e1e4" stroke="#2e4057" stroke-width="2"/>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2e4057">Event Loop</text>
+  
+  <!-- Coroutines -->
+  <rect x="150" y="280" width="150" height="60" rx="10" ry="10" fill="#ffe4bd" stroke="#2e4057" stroke-width="2"/>
+  <text x="225" y="318" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e4057">Coroutine 1</text>
+  
+  <rect x="325" y="280" width="150" height="60" rx="10" ry="10" fill="#ffe4bd" stroke="#2e4057" stroke-width="2"/>
+  <text x="400" y="318" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e4057">Coroutine 2</text>
+  
+  <rect x="500" y="280" width="150" height="60" rx="10" ry="10" fill="#ffe4bd" stroke="#2e4057" stroke-width="2"/>
+  <text x="575" y="318" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e4057">Coroutine 3</text>
+  
+  <!-- I/O Operations -->
+  <rect x="150" y="400" width="150" height="60" rx="10" ry="10" fill="#d6efff" stroke="#2e4057" stroke-width="2"/>
+  <text x="225" y="425" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e4057">I/O Operation</text>
+  <text x="225" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e4057">(Lectura de Archivo)</text>
+  
+  <rect x="325" y="400" width="150" height="60" rx="10" ry="10" fill="#d6efff" stroke="#2e4057" stroke-width="2"/>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e4057">I/O Operation</text>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e4057">(API Request)</text>
+  
+  <rect x="500" y="400" width="150" height="60" rx="10" ry="10" fill="#d6efff" stroke="#2e4057" stroke-width="2"/>
+  <text x="575" y="425" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e4057">I/O Operation</text>
+  <text x="575" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2e4057">(DB Query)</text>
+  
+  <!-- Flechas -->
+  <path d="M225,280 L225,220 C225,200 400,200 400,180" fill="none" stroke="#2e4057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400,280 L400,180" fill="none" stroke="#2e4057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M575,280 L575,220 C575,200 400,200 400,180" fill="none" stroke="#2e4057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <path d="M225,340 L225,400" fill="none" stroke="#2e4057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400,340 L400,400" fill="none" stroke="#2e4057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M575,340 L575,400" fill="none" stroke="#2e4057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Leyenda -->
+  <rect x="600" y="80" width="180" height="100" rx="5" ry="5" fill="white" stroke="#2e4057" stroke-width="1"/>
+  <text x="690" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e4057">Leyenda</text>
+  
+  <rect x="615" y="115" width="15" height="15" fill="#c1e1e4" stroke="#2e4057" stroke-width="1"/>
+  <text x="640" y="127" font-family="Arial, sans-serif" font-size="14" fill="#2e4057" x-anchor="start">Event Loop</text>
+  
+  <rect x="615" y="140" width="15" height="15" fill="#ffe4bd" stroke="#2e4057" stroke-width="1"/>
+  <text x="640" y="152" font-family="Arial, sans-serif" font-size="14" fill="#2e4057" x-anchor="start">Coroutines</text>
+  
+  <rect x="615" y="165" width="15" height="15" fill="#d6efff" stroke="#2e4057" stroke-width="1"/>
+  <text x="640" y="177" font-family="Arial, sans-serif" font-size="14" fill="#2e4057" x-anchor="start">I/O Operations</text>
+  
+  <!-- Async/Await -->
+  <rect x="50" y="80" width="180" height="100" rx="5" ry="5" fill="white" stroke="#2e4057" stroke-width="1"/>
+  <text x="140" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e4057">Keywords</text>
+  
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2e4057">async def funcion():</text>
+  <text x="70" y="145" font-family="Arial, sans-serif" font-size="14" fill="#2e4057">• Define coroutine</text>
+  
+  <text x="70" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2e4057">await operacion()</text>
+  <text x="70" y="190" font-family="Arial, sans-serif" font-size="14" fill="#2e4057">• Pausa hasta completar</text>
+  
+  <!-- Definir la punta de flecha -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2e4057"/>
+    </marker>
+  </defs>
+</svg>
