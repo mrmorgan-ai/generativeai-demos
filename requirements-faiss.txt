@@ -1,0 +1,32 @@
+#Google
+google
+#google-genai==1.7.0
+vertexai
+
+#Microsoft
+
+#Autogen
+
+#Vector databases
+#chromadb==0.6.3
+
+#Concurrency
+asyncio
+aiohttp
+aiofiles
+
+#Jupyter notebooks
+ipykernel
+
+#Data and visualization
+pandas
+numpy
+matplotlib
+
+# Management
+python-dotenv
+
+# Embeddings
+beir
+faiss
+pytrec_eval
