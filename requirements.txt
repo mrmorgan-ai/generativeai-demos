@@ -1,32 +1,30 @@
-#Google
-google
-google-genai==1.7.0
-vertexai
+#apis
+fastapi
+uvicorn
 
-#Microsoft
+#vectordb
+chromadb
 
-#Autogen
-
-#Vector databases
-chromadb==0.6.3
-
-#Concurrency
+#concurrency
 asyncio
 aiohttp
 aiofiles
 
-#Jupyter notebooks
+#notebooks
 ipykernel
 
-#Data and visualization
+#data and viz
 pandas
 numpy
 matplotlib
 
-# Management
+#management
 python-dotenv
 
-# Embeddings
-beir
-#faiss
-pytrec_eval
+#images
+Pillow
+python-multipart
+
+#ai
+torch
+transformers
