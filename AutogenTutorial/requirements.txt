@@ -1,8 +1,0 @@
-aiohttp
-asyncio
-autogen-agentchat
-autogen-ext[openai,azure]
-fastapi
-numpy
-load_dotenv
-pandas
