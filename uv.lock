@@ -1,8 +1,19 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
+
+[manifest]
+members = [
+    "ai-demos",
+    "serverless-demo",
+]
 
 [[package]]
 name = "ai-demos"
 version = "0.1.0"
 source = { virtual = "." }
+
+[[package]]
+name = "serverless-demo"
+version = "0.1.0"
+source = { virtual = "serverless-demo" }
