@@ -1,0 +1,8 @@
+azure-functions
+
+streamlit 
+agno>=2.2.10
+openai
+google-search-results
+icalendar
+python-dotenv
